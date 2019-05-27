@@ -1,8 +1,9 @@
-def podaj():
-    samochod={'Marka', 'Model','Pojemnosc'}
-    for (samochod['Marka'])
-     input('Podaj Marke')
-    
+def div(x,y):
+     try:
+          result = x//y
+          print(f'\n{x}/{y}={result}')
+          return x/y
+     except:
+          print('Error')
 
-
-    print(samochod)
+print(div(3,0))
