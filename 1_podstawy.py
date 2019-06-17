@@ -6,7 +6,7 @@ print(potega)
 
 #pobieranie z klawiatury
 imie=input()
-print("Twoje imie"+imie)
+print("Twoje imie\t"+imie)
 nazwisko =input ("Podaj nazwisko")
 print("Twoje nazw "+nazwisko)
 print("Towje nazw"+nazwisko ,"Twoje imie"+ imie)
