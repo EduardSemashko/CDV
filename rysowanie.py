@@ -16,6 +16,7 @@ for i in range(hight):
 m =int(input("Podaj strone"))
 n=m
 middle=m
+bottom='8'
 print(middle)
 for i in range(m):
     for j in range(2*n-1):
@@ -23,4 +24,5 @@ for i in range(m):
     print()
 for a in range(1, middle-1):
     print(' ', end='')
-print('888', end='')
+if m>=3:
+    print(3*bottom, end='')
