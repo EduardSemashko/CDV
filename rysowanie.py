@@ -24,4 +24,8 @@ for i in range(m):
     print()
 for a in range(1, middle-1):
     print(' ', end='')
-print(3*bottom, end='')
+if middle<4:
+    print(bottom, end='')
+else:
+    for a in range(middle):
+        print(3*bottom, end='')
